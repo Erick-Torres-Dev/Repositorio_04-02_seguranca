@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { modules, Module } from '../data/content';
+import { modules } from '../data/content';
+import type { Module } from '../data/content';
 
 export const Modules: React.FC = () => {
     const [selectedModule, setSelectedModule] = useState<Module | null>(null);
